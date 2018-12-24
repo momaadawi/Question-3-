@@ -1,0 +1,47 @@
+--------Question 5
+
+---1)	What is the difference between Primary key and unique constraint in table?
+		---Primary key
+
+			-- identifies each record in a table.
+
+			--Primary keys must contain UNIQUE values, and cannot contain NULL values.
+
+			--A table can have only one primary key
+
+		---unique
+			--ensures that all values in a column are different
+
+			--you can have many UNIQUE constraints per table
+
+---------------------------------------------------------------------------------------
+---2)	2)	What is the difference between Clustered and non-clustered index?
+
+		--Clustered Index
+
+			--Only one per table
+			--Faster to read than non clustered as data is physically stored in index order
+		
+		--Non Clustered Index
+
+			--Can be used many times per table
+			--Quicker for insert and update operations than a clustered index
+
+
+---------------------------------------------------------------------------------------
+
+---3)	3)	What is collation in SQL?
+			--Collation refers to a set of rules that determine how data is sorted and compared	
+			
+			---????????????
+---------------------------------------------------------------------------------------
+---4)	4)	What is the uniqueidentifier datatype in SQL?
+			
+			---  16-byte binary value.
+				SELECT newid()
+				--every time you SELECT sql sql engine generate new golbal ID
+---------------------------------------------------------------------------------------
+---5)	5)	What is SQL Azure?
+
+------------SQL Azure is Microsoft’s cloud database service. Based on SQL Server
+------------ database technology and built on Microsoft’s Windows Azure cloud computing platform
